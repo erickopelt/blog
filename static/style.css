@@ -1,0 +1,20 @@
+.dark-theme .logo__cursor {
+  background-color: #a9a9b3;
+}
+
+.logo__cursor {
+  background-color: #222;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+}
+
+.inline-svg {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  margin-right: 15px;
+}
