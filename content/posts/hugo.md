@@ -2,8 +2,10 @@
 title = "Hugo - From zero to deploy"
 date = "2020-02-29"
 author = "Erick Euller Opelt"
-description = "Step by step tutorial for creating a new site using hugo and deploying using. Netlify"
+description = "Step by step tutorial for creating a new site using [hugo](https://gohugo.io) and deploying using [Netlify](https://www.netlify.com/)"
 +++
+
+This is a step by step guide for creating a blog from zero using [hugo](https://gohugo.io) and deploy on [Netlify](https://www.netlify.com/) with continuous delivery.
 
 ### Installation
 
@@ -61,7 +63,11 @@ If you want to customize the site style without drastically change the theme you
 
 ### Deploy
 
-For deployment we will be using [Netlify](https://www.netlify.com/) with Github integration. So first thing create a new repository and push your code to Github.
+For deployment we will be using [Netlify](https://www.netlify.com/) with Github integration. So first thing create a new repository and push your code to Github. After that jump into Netlify dashboard.
 
-### Custom domain
+In the Netlify dashboard click in the New site button then select Github as the repo provider. You need to authorize Netlify usage of your Github account and select wich repository will be available for deploy. Now just select the right repository and setup the build configuration. Netlify recognizes hugo and the default build configuration show it's already enough.
 
+
+### Conclusion
+
+Hugo makes creation easy with simple tools and a variety of themes and turns adding new content into the simple task of just creating a new markdown file. Combine with Netlify effortless configuration and integration and you have the fastest setup I have ever experienced.
