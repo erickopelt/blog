@@ -18,3 +18,7 @@
   position: relative;
   margin-right: 15px;
 }
+
+.post-content p {
+  text-align: justify;
+}
