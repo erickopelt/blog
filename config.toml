@@ -1,4 +1,5 @@
 baseurl = "https://opelt.dev/"
+googleAnalytics = "UA-160694656-1"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
