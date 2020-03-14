@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://opelt.dev/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
