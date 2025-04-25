@@ -1,8 +1,11 @@
 baseurl = "https://opelt.dev/"
-googleAnalytics = "UA-160694656-1"
 languageCode = "en-us"
 theme = "hello-friend"
-paginate = 5
+
+[services]
+[services.googleAnalytics]
+id = 'G-EJSTV24MFX'
+
 
 [params]
 # dir name of your blog content (default is `content/posts`)
